@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NDC International — Conseil, sourcing international et formation</title>
+<meta name="description" content="NDC International accompagne les entreprises, institutions, associations et organisations françaises et internationales : conseil en gestion et stratégie, sourcing international, formation continue.">
+<link rel="icon" href="logo.png">
+<style>
+  :root {
+    --marine: #14305b;
+    --argent: #8e959e;
+    --argent-clair: #eef0f3;
+    --texte: #1f2937;
+    --fond: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--texte);
+    background: var(--fond);
+    line-height: 1.65;
+  }
+  h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; color: var(--marine); line-height: 1.25; margin: 0 0 .6em; }
+  a { color: var(--marine); }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+  header { border-bottom: 1px solid var(--argent-clair); background: #fff; position: sticky; top: 0; z-index: 10; }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 10px; padding-bottom: 10px; }
+  header img { height: 56px; width: auto; display: block; }
+  nav a { margin-left: 22px; text-decoration: none; color: var(--marine); font-size: .95rem; letter-spacing: .02em; }
+  nav a:hover { text-decoration: underline; }
+
+  .hero { background: var(--marine); color: #fff; padding: 84px 0 76px; }
+  .hero h1 { color: #fff; font-size: clamp(1.9rem, 4.2vw, 2.9rem); max-width: 18ch; }
+  .hero p { max-width: 62ch; font-size: 1.1rem; color: #dbe2ee; margin: 0 0 1.6em; }
+  .hero .filet { width: 72px; height: 3px; background: var(--argent); margin: 0 0 24px; }
+  .btn { display: inline-block; padding: 12px 26px; background: #fff; color: var(--marine); text-decoration: none; font-weight: 600; border-radius: 2px; }
+  .btn:hover { background: var(--argent-clair); }
+
+  section { padding: 68px 0; }
+  section.alt { background: var(--argent-clair); }
+  section h2 { font-size: 1.7rem; }
+  .intro { max-width: 70ch; }
+
+  .cartes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 30px; }
+  .carte { background: #fff; border-top: 3px solid var(--marine); padding: 26px 24px; box-shadow: 0 1px 4px rgba(20,48,91,.08); }
+  .carte h3 { font-size: 1.2rem; }
+  .carte p { margin: 0; font-size: .98rem; }
+
+  .congo { display: grid; grid-template-columns: 1fr; gap: 12px; }
+  .contact-bloc { font-size: 1.05rem; }
+  .contact-bloc strong { color: var(--marine); }
+  .contact-bloc .poste { color: #4b5563; }
+
+  footer { background: var(--marine); color: #cfd8e6; padding: 36px 0; font-size: .9rem; }
+  footer a { color: #fff; }
+  footer h3 { color: #fff; font-size: 1rem; }
+  footer p { margin: 0 0 .5em; }
+
+  @media (max-width: 640px) {
+    nav a { margin-left: 14px; font-size: .88rem; }
+    header img { height: 44px; }
+    .hero { padding: 56px 0 52px; }
+    section { padding: 48px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="#accueil" aria-label="NDC International, accueil"><img src="logo.png" alt="NDC International"></a>
+    <nav>
+      <a href="#expertises">Expertises</a>
+      <a href="#congo">Congo</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="accueil">
+  <div class="hero">
+    <div class="wrap">
+      <div class="filet"></div>
+      <h1>Conseil stratégique, sourcing international et formation</h1>
+      <p>NDC International accompagne les entreprises, institutions publiques, associations et organisations françaises et internationales dans leurs projets, de la définition de la stratégie à sa mise en œuvre.</p>
+      <a class="btn" href="#contact">Nous contacter</a>
+    </div>
+  </div>
+
+  <section id="expertises">
+    <div class="wrap">
+      <h2>Nos expertises</h2>
+      <p class="intro">Trois domaines d'intervention, conduits par une même équipe et une même méthode de travail.</p>
+      <div class="cartes">
+        <div class="carte">
+          <h3>Conseil en gestion et stratégie</h3>
+          <p>Conseil, audit, assistance et accompagnement opérationnel, stratégique, administratif et organisationnel.</p>
+        </div>
+        <div class="carte">
+          <h3>Sourcing et développement d'affaires</h3>
+          <p>Recherche de partenaires et de fournisseurs, intermédiation commerciale, conseil en négociation internationale et développement de réseaux d'affaires.</p>
+        </div>
+        <div class="carte">
+          <h3>Formation continue</h3>
+          <p>Conception, organisation et animation d'actions de formation, d'ateliers, de séminaires et de conférences pour professionnels et dirigeants.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="congo" class="alt">
+    <div class="wrap congo">
+      <h2>Présence en Afrique centrale</h2>
+      <p class="intro">NDC International est le groupe fondateur de NDC Congo, filiale établie à Brazzaville. Elle assure l'interface avec les entreprises et organisations congolaises et le suivi des opérations sur place.</p>
+      <p><a class="btn" style="background:var(--marine);color:#fff" href="https://congo.ndcinternational.fr">Découvrir NDC Congo</a></p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <div class="contact-bloc">
+        <p><strong>Nathalie Duguet</strong><br>
+        <span class="poste">Présidente – NDC SASU</span><br>
+        Conseil stratégique · Sourcing international · Formation</p>
+        <p>23 bis rue de la Passerelle, 87100 Limoges (France)</p>
+        <p><a href="tel:+33685123503">+33 6 85 12 35 03</a><br>
+        <a href="mailto:contact@ndcinternational.fr">contact@ndcinternational.fr</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <h3>Mentions légales</h3>
+    <p><strong>Éditeur du site :</strong> NDC SASU, société par actions simplifiée unipersonnelle au capital de 1 000 €, dont le siège social est situé 23 bis rue de la Passerelle, 87100 Limoges (France).</p>
+    <p><strong>SIRET :</strong> [À COMPLÉTER DÈS RÉCEPTION] · <strong>RCS :</strong> Limoges [À COMPLÉTER]</p>
+    <p><strong>Directrice de la publication :</strong> Nathalie Duguet, Présidente.</p>
+    <p><strong>Contact :</strong> <a href="mailto:contact@ndcinternational.fr">contact@ndcinternational.fr</a> · <a href="tel:+33685123503">+33 6 85 12 35 03</a></p>
+    <p><strong>Hébergement :</strong> GitHub Pages, GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis. <strong>Nom de domaine :</strong> OVH SAS, 2 rue Kellermann, 59100 Roubaix, France.</p>
+    <p>© 2026 NDC SASU. Tous droits réservés.</p>
+  </div>
+</footer>
+
+</body>
+</html>
